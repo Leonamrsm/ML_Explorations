@@ -22,3 +22,9 @@ The final product will be 7 tables showing the performance of the algorithms, ev
 
 - **Algorithms:** KNN, Decision Tree, Random Forest and Logistic Regression
 - **Performance metrics:** Accuracy, Precision, Recall and F1-Score
+
+#### Regression:
+- **Algorithms:** Linear Regression, Decision Tree Regressor, Random Forest Regressor, Polinomial
+Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net,
+Polinomial Regression Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net
+- **Performance metrics:** R2, MSE, RMSE, MAE e MAPE
