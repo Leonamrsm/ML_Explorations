@@ -15,3 +15,10 @@ The objective of this project will be to carry out tests with Classification, Re
 ### Final Product
 
 The final product will be 7 tables showing the performance of the algorithms, evaluated using multiple metrics, for 3 different data sets: Training, validation and testing.
+
+### Tested algorithms
+
+#### Classification:
+
+- Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression
+- Métricas de performance: Accuracy, Precision, Recall e F1-Score
