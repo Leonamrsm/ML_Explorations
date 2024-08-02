@@ -28,3 +28,8 @@ The final product will be 7 tables showing the performance of the algorithms, ev
 Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net,
 Polinomial Regression Lasso, Polinomial Regression Ridge e Polinomial Regression Elastic Net
 - **Performance metrics:** R2, MSE, RMSE, MAE e MAPE
+/line
+
+#### Clustering:
+- **Algorithms:**  K-Means e Affinity Propagation
+- **Performance metrics:** Silhouette Score
