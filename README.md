@@ -20,5 +20,5 @@ The final product will be 7 tables showing the performance of the algorithms, ev
 
 #### Classification:
 
-- Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression
-- Métricas de performance: Accuracy, Precision, Recall e F1-Score
+- **Algorithms:** KNN, Decision Tree, Random Forest and Logistic Regression
+- **Performance metrics:** Accuracy, Precision, Recall and F1-Score
