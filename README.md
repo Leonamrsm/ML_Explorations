@@ -147,3 +147,14 @@ Python 3.11 and Scikit-learn
 | K-Means                | 3                  | 0.301                    |
 | Affinity Propagation   | 2                  | 0.301                    |
 
+## Conclusion
+
+In this Machine Learning project, I was able to gain experience and better understand the limits of algorithms between the underfitting and overfitting states.
+
+Tree-based algorithms are sensitive to the depth of growth and the number of trees in the forest, so choosing the correct values ​​for these parameters prevents the algorithms from entering the overfitting state.
+
+Regression algorithms, on the other hand, are sensitive to the degree of the polynomial. This parameter
+controls the limit between the underfitting and overfitting states of these algorithms.
+
+This Machine Learning essay was very important to deepen the understanding of how various classification, regression and clustering algorithms work and what the main control parameters are between the underfitting and overfitting states.
+
