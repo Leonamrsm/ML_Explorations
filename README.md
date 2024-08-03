@@ -92,5 +92,58 @@ Python 3.11 and Scikit-learn
 
 ### Regression Test:
 
+#### Training Set
+
+| Algorithm                         | R2    | MSE    | RMSE   | MAE    | MAPE  |
+|-----------------------------------|-------|--------|--------|--------|-------|
+| Linear Regression                 | 0.046 | 455.996| 21.354 | 16.998 | 8.653 |
+| Decision Tree Regressor           | 0.104 | 428.127| 20.691 | 16.460 | 8.184 |
+| Random Forest Regressor           | 0.905 | 45.552 | 6.749  | 4.730  | 2.519 |
+| Polynomial Regression             | 0.092 | 434.135| 20.836 | 16.505 | 8.386 |
+| Lasso                             | 0.046 | 456.167| 21.358 | 17.011 | 8.640 |
+| Ridge                             | 0.046 | 456.106| 21.357 | 17.007 | 8.646 |
+| Elastic Net                       | 0.046 | 456.167| 21.358 | 17.011 | 8.640 |
+| Polynomial Regression Lasso       | 0.090 | 435.191| 20.861 | 16.534 | 8.404 |
+| Polynomial Regression Ridge       | 0.092 | 434.135| 20.836 | 16.505 | 8.386 |
+| Polynomial Regression Elastic Net | 0.090 | 435.191| 20.861 | 16.534 | 8.404 |
+
+
+#### Validation Set
+
+| Algorithm                         | R2    | MSE     | RMSE   | MAE    | MAPE  |
+|-----------------------------------|-------|---------|--------|--------|-------|
+| Linear Regression                 | 0.040 | 458.447 | 21.411 | 17.040 | 8.683 |
+| Decision Tree Regressor           | 0.100 | 429.538 | 20.725 | 16.541 | 8.329 |
+| Random Forest Regressor           | 0.902 | 46.620  | 6.828  | 4.790  | 2.570 |
+| Polinomial Regression             | 0.081 | 439.046 | 20.953 | 16.620 | 8.508 |
+| Lasso                             | 0.041 | 457.794 | 21.396 | 17.035 | 8.667 |
+| Ridge                             | 0.041 | 457.823 | 21.397 | 17.034 | 8.673 |
+| Elastic Net                       | 0.041 | 457.794 | 21.396 | 17.035 | 8.667 |
+| Polinomial Regression Lasso       | 0.080 | 439.482 | 20.964 | 16.623 | 8.525 |
+| Polinomial Regression Ridge       | 0.081 | 439.046 | 20.953 | 16.620 | 8.508 |
+| Polinomial Regression Elastic Net | 0.080 | 439.482 | 20.964 | 16.623 | 8.525 |
+
+
+#### Test Set
+
+| Algorithm                         | R2    | MSE     | RMSE   | MAE    | MAPE  |
+|-----------------------------------|-------|---------|--------|--------|-------|
+| Linear Regression                 | 0.052 | 461.428 | 21.481 | 17.130 | 8.522 |
+| Decision Tree Regressor           | 0.090 | 443.296 | 21.055 | 16.830 | 7.886 |
+| Random Forest Regressor           | 0.405 | 289.825 | 17.024 | 12.267 | 6.309 |
+| Polynomial Regression             | 0.091 | 442.641 | 21.039 | 16.736 | 8.277 |
+| Lasso                             | 0.050 | 462.434 | 21.504 | 17.155 | 8.531 |
+| Ridge                             | 0.051 | 461.988 | 21.494 | 17.144 | 8.531 |
+| Elastic Net                       | 0.050 | 462.434 | 21.504 | 17.155 | 8.531 |
+| Polynomial Regression Lasso       | 0.091 | 442.488 | 21.035 | 16.736 | 8.308 |
+| Polynomial Regression Ridge       | 0.091 | 442.639 | 21.039 | 16.736 | 8.277 |
+| Polynomial Regression Elastic Net | 0.091 | 442.488 | 21.035 | 16.736 | 8.308 |
+
 
 ### Clustering Test:
+
+| Algorithm              | Número de clusters | Average Silhouette Score |
+|------------------------|--------------------|--------------------------|
+| K-Means                | 3                  | 0.301                    |
+| Affinity Propagation   | 2                  | 0.301                    |
+
