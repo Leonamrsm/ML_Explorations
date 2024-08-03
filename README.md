@@ -59,3 +59,11 @@ Python 3.11 and Scikit-learn
 3. All regression algorithms did not present good performance metrics, which shows a need for attribute selection and better preparation of the independent variables of the data set.
 
 ## Results
+
+### Classification Test:
+
+
+### Regression Test:
+
+
+### Clustering Test:
