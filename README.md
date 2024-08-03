@@ -62,6 +62,32 @@ Python 3.11 and Scikit-learn
 
 ### Classification Test:
 
+#### Training Set
+
+| Algorithm                   | Accuracy | Precision | Recall | F1-Score |
+|-----------------------------|----------|-----------|--------|----------|
+| K Neighbors Classifier      | 0.941    | 0.967     | 0.894  | 0.929    |
+| Decision Tree Classifier    | 0.971    | 0.979     | 0.953  | 0.966    |
+| Random Forest Classifier    | 0.999    | 1.000     | 0.998  | 0.999    |
+| Logistic Regression         | 0.875    | 0.870     | 0.836  | 0.853    |
+
+#### Validation Set
+
+| Algorithm                   | Accuracy | Precision | Recall | F1-Score |
+|-----------------------------|----------|-----------|--------|----------|
+| K Neighbors Classifier      | 0.939    | 0.966     | 0.891  | 0.927    |
+| Decision Tree Classifier    | 0.971    | 0.979     | 0.953  | 0.966    |
+| Random Forest Classifier    | 0.999    | 1.000     | 0.998  | 0.999    |
+| Logistic Regression         | 0.874    | 0.869     | 0.835  | 0.851    |
+
+#### Test Set
+
+| Algoritmo                   | Accuracy | Precision | Recall | F1-Score |
+|-----------------------------|----------|-----------|--------|----------|
+| K Neighbors Classifier      | 0.929    | 0.957     | 0.879  | 0.916    |
+| Decision Tree Classifier    | 0.956    | 0.961     | 0.937  | 0.949    |
+| Random Forest Classifier    | 0.963    | 0.972     | 0.942  | 0.957    |
+| Logistic Regression         | 0.871    | 0.869     | 0.832  | 0.850    |
 
 
 ### Regression Test:
