@@ -36,3 +36,16 @@ Polinomial Regression Lasso, Polinomial Regression Ridge e Polinomial Regression
 ### Tools Used
 
 Python 3.11 and Scikit-learn
+
+
+## Development
+
+### Solution strategy
+
+- Step 1: Split the data into training, testing, and validation.
+- Step 2: Perform a grid search to find the best hyperparameters that control the algorithm's overfitting. For each combination of hyperparameters, train the model on the training set and evaluate its performance on the validation set.
+- Step 3: Identify the combination of hyperparameters that results in the best model performance on the validation set.
+- Step 4: Merge the training and validation data.
+Step 5: Retrain the algorithm by combining the training and validation data, using the best values ​​for the algorithm's control parameters.
+- Step 6: Measure the performance of the algorithms trained with the best parameters, using the test data set.
+- Step 7: Evaluate the tests and note the 3 main insights that stood out.
