@@ -49,3 +49,13 @@ Python 3.11 and Scikit-learn
 5. Retrain the algorithm by combining the training and validation data, using the best values ​​for the algorithm's control parameters.
 6. Measure the performance of the algorithms trained with the best parameters, using the test data set.
 7. Evaluate the tests and note the 3 main insights that stood out.
+
+## Top 3 Insights
+
+1. Tree-based algorithms perform better in all metrics when applied to test data in the Classification test.
+
+2. The performance of the classification algorithms on the validation data was very close to the performance on the test data.
+
+3. All regression algorithms did not present good performance metrics, which shows a need for attribute selection and better preparation of the independent variables of the data set.
+
+## Results
